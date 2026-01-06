@@ -1,6 +1,7 @@
 # 🎓 SPK Alokasi Dana Pendidikan Papua Pegunungan (AHP-TOPSIS)
 
 Sistem Pendukung Keputusan (SPK) untuk menentukan prioritas alokasi dana bantuan infrastruktur pendidikan di Provinsi Papua Pegunungan menggunakan integrasi metode **Analytic Hierarchy Process (AHP)** dan **TOPSIS**.
+
 🔗 **Akses Aplikasi:** [edufund-decision.streamlit.app](https://edufund-decision.streamlit.app/)
 
 ## 📌 Latar Belakang
@@ -10,8 +11,6 @@ Provinsi Papua Pegunungan menghadapi tantangan disparitas infrastruktur pendidik
 Sistem ini beroperasi dalam dua tahapan utama:
 1.  **Analytic Hierarchy Process (AHP):** Digunakan untuk menghitung bobot kepentingan relatif kriteria melalui matriks perbandingan berpasangan (Pairwise Comparison).
 2.  **TOPSIS:** Menghasilkan ranking kabupaten berdasarkan jarak terdekat dari solusi ideal positif dan jarak terjauh dari solusi ideal negatif.
-
-
 
 ## 📊 Kriteria Penilaian
 Terdapat 4 kriteria utama yang digunakan (Data TA 2022/2023):
