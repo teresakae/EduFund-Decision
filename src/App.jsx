@@ -268,8 +268,8 @@ const EduFundApp = () => {
                       }}
                       className={`border rounded-lg px-3 py-2 text-sm font-medium outline-none appearance-none cursor-pointer transition-colors ${c.type === 'benefit' ? 'bg-sky-50 text-sky-700 border-sky-200 hover:bg-sky-100' : 'bg-orange-50 text-orange-700 border-orange-200 hover:bg-orange-100'}`}
                     >
-                      <option value="benefit">Benefit (Max)</option>
-                      <option value="cost">Cost (Min)</option>
+                      <option value="benefit">Benefit (Lebih Tinggi Lebih Baik)</option>
+                      <option value="cost">Cost (Lebih Rendah Lebih Baik)</option>
                     </select>
                     {criteria.length > 2 && <button onClick={() => removeCriterion(idx)} className="text-gray-400 hover:text-red-500 p-2 transition-colors"><Trash2 className="w-5 h-5"/></button>}
                   </div>
@@ -286,7 +286,7 @@ const EduFundApp = () => {
           <div className="bg-white rounded-2xl shadow-sm border border-gray-200 p-8 animate-in fade-in slide-in-from-bottom-4 duration-500">
              <InfoBox 
               title="Langkah 2: Bandingkan Kepentingan Kriteria" 
-              text="Pilih kriteria mana yang lebih prioritas. Geser ke KIRI (Hijau) jika kriteria kiri lebih penting, atau ke KANAN (Biru) jika kriteria kanan lebih penting." 
+              text="Pilih kriteria mana yang lebih penting. Geser ke KIRI (Hijau) jika kriteria kiri lebih penting, atau ke KANAN (Biru) jika kriteria kanan lebih penting." 
              />
 
              <div className="space-y-8">
