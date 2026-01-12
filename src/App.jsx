@@ -108,13 +108,15 @@ const EduFundApp = () => {
   ];
 
   const importanceScale = [
-    { value: 9, label: '9', tooltip: 'Mutlak', group: 'left' },
-    { value: 5, label: '5', tooltip: 'Lebih', group: 'left' },
-    { value: 3, label: '3', tooltip: 'Sedikit', group: 'left' },
+    { value: 5, label: '5', tooltip: 'Mutlak (5x)', group: 'left' },
+    { value: 4, label: '4', tooltip: 'Sangat (4x)', group: 'left' },
+    { value: 3, label: '3', tooltip: 'Lebih (3x)', group: 'left' },
+    { value: 2, label: '2', tooltip: 'Sedikit (2x)', group: 'left' },
     { value: 1, label: '1', tooltip: 'Sama', group: 'center' },
-    { value: 0.333, label: '3', tooltip: 'Sedikit', group: 'right' },
-    { value: 0.2, label: '5', tooltip: 'Lebih', group: 'right' },
-    { value: 0.111, label: '9', tooltip: 'Mutlak', group: 'right' }
+    { value: 1/2, label: '2', tooltip: 'Sedikit (2x)', group: 'right' },
+    { value: 1/3, label: '3', tooltip: 'Lebih (3x)', group: 'right' },
+    { value: 1/4, label: '4', tooltip: 'Sangat (4x)', group: 'right' },
+    { value: 1/5, label: '5', tooltip: 'Mutlak (5x)', group: 'right' }
   ];
 
   const calculateAHP = () => {
